@@ -1,0 +1,12 @@
+spring:
+  thymeleaf:
+    cache: false
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 556677
+    url: jdbc:mysql://localhost:3306/test?serverTimezone=GMT
+    type: com.alibaba.druid.pool.DruidDataSource
+
+
+
